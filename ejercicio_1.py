@@ -1,0 +1,12 @@
+print("Hola, bienvenido")
+print("Ingrese los siguientes datos")
+print(":> Largo de la piscina")
+n1=int(input())
+print(":> Alto de la piscina")
+n2=int(input())
+print(":> Ancho de la piscina")
+n3=int(input())
+print(":> Precio por m3")
+n4=float(input())
+print(f":> El pago que debe realizar es {(n1*n2*n3)*n4}")
+
